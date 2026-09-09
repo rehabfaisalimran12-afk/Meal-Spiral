@@ -1,0 +1,136 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create `lib/types.ts` with all shared TypeScript interfaces and types": [
+      {
+        "executionId": "6de5b3b9-374c-4134-a7fa-d9abaf208f73",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788820421393
+      },
+      {
+        "executionId": "6de5b3b9-374c-4134-a7fa-d9abaf208f73",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788820953434
+      }
+    ],
+    "1.2 Install test dependencies and configure Vitest": [
+      {
+        "executionId": "6de5b3b9-374c-4134-a7fa-d9abaf208f73",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788820421636
+      },
+      {
+        "executionId": "6de5b3b9-374c-4134-a7fa-d9abaf208f73",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788820954554
+      }
+    ],
+    "1. Set up shared types and test infrastructure": [
+      {
+        "executionId": "6de5b3b9-374c-4134-a7fa-d9abaf208f73",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788820954652
+      }
+    ],
+    "2.1 Create `lib/supabase.ts`": [
+      {
+        "executionId": "6fe19679-11f8-4fda-92c3-c5bff8e4fca3",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788820991890
+      },
+      {
+        "executionId": "6fe19679-11f8-4fda-92c3-c5bff8e4fca3",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788821285952
+      }
+    ],
+    "2.2 Create `lib/groq.ts`": [
+      {
+        "executionId": "6fe19679-11f8-4fda-92c3-c5bff8e4fca3",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788820992199
+      },
+      {
+        "executionId": "6fe19679-11f8-4fda-92c3-c5bff8e4fca3",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788821286093
+      }
+    ],
+    "3.1 Create `lib/safety-guard.ts` with `evaluateRestrictionSignal()`": [
+      {
+        "executionId": "677fa04d-3a26-4453-8a10-70f855d54ae2",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788821328921
+      },
+      {
+        "executionId": "677fa04d-3a26-4453-8a10-70f855d54ae2",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788821534534
+      }
+    ],
+    "3. Implement the Safety Guard": [
+      {
+        "executionId": "677fa04d-3a26-4453-8a10-70f855d54ae2",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788821534682
+      }
+    ],
+    "4.1 Create `app/api/log/route.ts`": [
+      {
+        "executionId": "d162615b-31e2-45a1-8240-4a3b9aff769a",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788821696872
+      },
+      {
+        "executionId": "d162615b-31e2-45a1-8240-4a3b9aff769a",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788821922243
+      }
+    ],
+    "4. Implement `POST /api/log`": [
+      {
+        "executionId": "d162615b-31e2-45a1-8240-4a3b9aff769a",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788821922392
+      }
+    ],
+    "5.1 Create `app/api/cluster/route.ts`": [
+      {
+        "executionId": "e55eba27-3f20-4a8c-b845-234169b4fbd3",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788821982794
+      },
+      {
+        "executionId": "e55eba27-3f20-4a8c-b845-234169b4fbd3",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788823004324
+      }
+    ],
+    "5. Implement `POST /api/cluster`": [
+      {
+        "executionId": "e55eba27-3f20-4a8c-b845-234169b4fbd3",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788823004502
+      }
+    ],
+    "6.1 Create `app/api/risk/route.ts`": [
+      {
+        "executionId": "56aa1017-783d-4795-abde-36f74382474a",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788823134360
+      },
+      {
+        "executionId": "56aa1017-783d-4795-abde-36f74382474a",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788823449653
+      }
+    ],
+    "6. Implement `POST /api/risk`": [
+      {
+        "executionId": "56aa1017-783d-4795-abde-36f74382474a",
+        "chatSessionId": "sess_16ce8642-da9a-48e9-a47e-33a23e7005a4",
+        "timestamp": 1788823449848
+      }
+    ]
+  }
+}
